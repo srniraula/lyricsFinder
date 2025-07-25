@@ -1,0 +1,73 @@
+X connection to :0 broken (explicit kill or server shutdown).
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/Xlib/protocol/display.py", line 583, in send_and_recv
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/Xlib/protocol/display.py", line 583, in send_and_recv
+Traceback (most recent call last):
+  File "/home/srniraula/lyricsPopupApp/lyrics_popup.py", line 4, in <module>
+    from pynput import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/__init__.py", line 40, in <module>
+    from . import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/keyboard/__init__.py", line 31, in <module>
+    backend = backend(__name__)
+              ^^^^^^^^^^^^^^^^^
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/_util/__init__.py", line 78, in backend
+    raise ImportError('this platform is not supported: {}'.format(
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+
+Try one of the following resolutions:
+
+ * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly
+/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/lyricsgenius/genius.py:482: FutureWarning: The constructor signature will change in a future version. It will change to Song(lyrics, body) instead of Song(client, json_dict, lyrics).
+  song = Song(self, song_info, lyrics)
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+X connection to :0 broken (explicit kill or server shutdown).
+Traceback (most recent call last):
+  File "/home/srniraula/lyricsPopupApp/lyrics_popup.py", line 4, in <module>
+    from pynput import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/__init__.py", line 40, in <module>
+    from . import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/keyboard/__init__.py", line 31, in <module>
+    backend = backend(__name__)
+              ^^^^^^^^^^^^^^^^^
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/_util/__init__.py", line 78, in backend
+    raise ImportError('this platform is not supported: {}'.format(
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+
+Try one of the following resolutions:
+
+ * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/home/srniraula/lyricsPopupApp/lyrics_popup.py", line 144, in do_move
+    x = event.x_root - self._x
+                       ^^^^^^^
+AttributeError: 'LyricsPopup' object has no attribute '_x'
+X connection to :0 broken (explicit kill or server shutdown).
+Traceback (most recent call last):
+  File "/home/srniraula/lyricsPopupApp/lyrics_popup.py", line 4, in <module>
+    from pynput import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/__init__.py", line 40, in <module>
+    from . import keyboard
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/keyboard/__init__.py", line 31, in <module>
+    backend = backend(__name__)
+              ^^^^^^^^^^^^^^^^^
+  File "/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/pynput/_util/__init__.py", line 78, in backend
+    raise ImportError('this platform is not supported: {}'.format(
+ImportError: this platform is not supported: ('failed to acquire X connection: Bad display name ""', DisplayNameError(''))
+
+Try one of the following resolutions:
+
+ * Please make sure that you have an X server running, and that the DISPLAY environment variable is set correctly
+/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/lyricsgenius/genius.py:482: FutureWarning: The constructor signature will change in a future version. It will change to Song(lyrics, body) instead of Song(client, json_dict, lyrics).
+  song = Song(self, song_info, lyrics)
+X connection to :0 broken (explicit kill or server shutdown).
+/home/srniraula/lyricsPopupApp/.venv/lib/python3.12/site-packages/lyricsgenius/genius.py:482: FutureWarning: The constructor signature will change in a future version. It will change to Song(lyrics, body) instead of Song(client, json_dict, lyrics).
+  song = Song(self, song_info, lyrics)
